@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/*规划用全站统一列表和内容样式*/
+.moe-title-tab, .scy_bottom-left-list, .scy_bottom1-list, .scy-zzjg-right2-list, .scy-xw-left2-list, .scy-xw-right2-list, .shuju_main_list {
+  width: 100%;
+  height: 25px;
+  background: url(bq_scy_jyb_liestbj_03.jpg) repeat-x bottom;
+}
+.moe-title-tab ul li, .scy_bottom-left-list ul li, .scy_bottom1-list ul li, .scy-zzjg-right2-list ul li, .scy-xw-left2-list ul li, .scy-xw-right2-list ul li, .shuju_main_list ul li {
+  float: left;
+  height: 23px;
+  line-height: 23px;
+  color: #6b6b6b;
+}
+.moe-title-tab ul li a, .scy_bottom-left-list ul li a, .scy_bottom1-list ul li a, .scy-zzjg-right2-list ul li a, .scy-xw-left2-list ul li a, .scy-xw-right2-list ul li a, .shuju_main_list ul li a {
+  padding: 0 14px 0 27px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #6b6b6b;
+}
+.moe-title-tab ul li a:hover, .scy_bottom-left-list ul li a:hover, .scy_bottom1-list ul li a:hover, .scy-zzjg-right2-list ul li a:hover, .scy-xw-left2-list ul li a:hover, .scy-xw-right2-list ul li a:hover, .shuju_main_list ul li a:hover {
+  color: #567fe6;
+}
+
+.moe-title-tab .show {
+  background: url(zzjg_scy_jyb_btbj_03.png) no-repeat 6px center;
+  border-bottom: 2px solid #567fe6;
+}
+.moe-title-tab .show a {
+  color: #567fe6;
+}
+
+.scy-xw-left2-list ul li.news, .scy-xw-right2-list ul li.news {
+  background: url(zzjg_scy_jyb_btbj_03.png) no-repeat 6px center;
+  border-bottom: 2px solid #567fe6;
+}
+.scy-xw-left2-list ul li.news a, .scy-xw-right2-list ul li.news a {
+  color: #567fe6;
+}
+
+.scy-zzjg-right2-list ul li.nowzz {
+  background: url(zzjg_scy_jyb_btbj_03.png) no-repeat 6px center;
+  border-bottom: 2px solid #567fe6;
+}
+.scy-zzjg-right2-list ul li.nowzz a {
+  color: #567fe6;
+}
+
+.shuju_main_list .now1 {
+  background: url(zzjg_scy_jyb_btbj_03.png) no-repeat 6px center;
+  border-bottom: 2px solid #567fe6;
+}
+.shuju_main_list .now1 a {
+  color: #567fe6;
+}
+
+.moe-list-init, .scy_bottom-center-nr, .scy-xw-left2-nr, .scy-xw-right2-nr, .scy-xw-right3-nr, .scy-zzjg-right1-nr, .jyb_zwfw_xzsp {
+  margin-top: 12px;
+  width: 100%;
+}
+.moe-list-init ul li, .moe-list-init dd, .scy_bottom-center-nr ul li, .scy_bottom-center-nr dd, .scy-xw-left2-nr ul li, .scy-xw-left2-nr dd, .scy-xw-right2-nr ul li, .scy-xw-right2-nr dd, .scy-xw-right3-nr ul li, .scy-xw-right3-nr dd, .scy-zzjg-right1-nr ul li, .scy-zzjg-right1-nr dd, .jyb_zwfw_xzsp ul li, .jyb_zwfw_xzsp dd {
+  position: relative;
+  padding-left: 10px;
+  background: url(bq_scy_jyb_libjt_03.png) no-repeat 2px 13px;
+  line-height: 28px;
+  font-size: 14px;
+  color: #4b4b4b;
+}
+.moe-list-init ul li span, .moe-list-init dd span, .scy_bottom-center-nr ul li span, .scy_bottom-center-nr dd span, .scy-xw-left2-nr ul li span, .scy-xw-left2-nr dd span, .scy-xw-right2-nr ul li span, .scy-xw-right2-nr dd span, .scy-xw-right3-nr ul li span, .scy-xw-right3-nr dd span, .scy-zzjg-right1-nr ul li span, .scy-zzjg-right1-nr dd span, .jyb_zwfw_xzsp ul li span, .jyb_zwfw_xzsp dd span {
+  float: right;
+  font-size: 12px;
+  color: #6b6b6b;
+  font-family: "宋体";
+}
+.moe-list-init ul li div, .moe-list-init dd div, .scy_bottom-center-nr ul li div, .scy_bottom-center-nr dd div, .scy-xw-left2-nr ul li div, .scy-xw-left2-nr dd div, .scy-xw-right2-nr ul li div, .scy-xw-right2-nr dd div, .scy-xw-right3-nr ul li div, .scy-xw-right3-nr dd div, .scy-zzjg-right1-nr ul li div, .scy-zzjg-right1-nr dd div, .jyb_zwfw_xzsp ul li div, .jyb_zwfw_xzsp dd div {
+  display: block;
+}
+.moe-list-init ul li a, .moe-list-init dd a, .scy_bottom-center-nr ul li a, .scy_bottom-center-nr dd a, .scy-xw-left2-nr ul li a, .scy-xw-left2-nr dd a, .scy-xw-right2-nr ul li a, .scy-xw-right2-nr dd a, .scy-xw-right3-nr ul li a, .scy-xw-right3-nr dd a, .scy-zzjg-right1-nr ul li a, .scy-zzjg-right1-nr dd a, .jyb_zwfw_xzsp ul li a, .jyb_zwfw_xzsp dd a {
+  color: #4b4b4b;
+}
+.moe-list-init ul li a:hover, .moe-list-init dd a:hover, .scy_bottom-center-nr ul li a:hover, .scy_bottom-center-nr dd a:hover, .scy-xw-left2-nr ul li a:hover, .scy-xw-left2-nr dd a:hover, .scy-xw-right2-nr ul li a:hover, .scy-xw-right2-nr dd a:hover, .scy-xw-right3-nr ul li a:hover, .scy-xw-right3-nr dd a:hover, .scy-zzjg-right1-nr ul li a:hover, .scy-zzjg-right1-nr dd a:hover, .jyb_zwfw_xzsp ul li a:hover, .jyb_zwfw_xzsp dd a:hover {
+  color: #567fe6;
+}
+.moe-list-init ul li:hover, .moe-list-init dd:hover, .scy_bottom-center-nr ul li:hover, .scy_bottom-center-nr dd:hover, .scy-xw-left2-nr ul li:hover, .scy-xw-left2-nr dd:hover, .scy-xw-right2-nr ul li:hover, .scy-xw-right2-nr dd:hover, .scy-xw-right3-nr ul li:hover, .scy-xw-right3-nr dd:hover, .scy-zzjg-right1-nr ul li:hover, .scy-zzjg-right1-nr dd:hover, .jyb_zwfw_xzsp ul li:hover, .jyb_zwfw_xzsp dd:hover {
+  background: url(bq_scy_jyb_hovrli_03.png) no-repeat 0 11px;
+}
+.moe-list-init ul li:hover span, .moe-list-init dd:hover span, .scy_bottom-center-nr ul li:hover span, .scy_bottom-center-nr dd:hover span, .scy-xw-left2-nr ul li:hover span, .scy-xw-left2-nr dd:hover span, .scy-xw-right2-nr ul li:hover span, .scy-xw-right2-nr dd:hover span, .scy-xw-right3-nr ul li:hover span, .scy-xw-right3-nr dd:hover span, .scy-zzjg-right1-nr ul li:hover span, .scy-zzjg-right1-nr dd:hover span, .jyb_zwfw_xzsp ul li:hover span, .jyb_zwfw_xzsp dd:hover span {
+  color: #567fe6;
+}
+
+.moe_title, .scy-zzjg-left1-list, .scy-zzjg-right1-list {
+  height: 25px;
+  background: url(zzjg_scy_jyb_liestbj_03.jpg) repeat-x bottom;
+}
+.moe_title h2, .scy-zzjg-left1-list h2, .scy-zzjg-right1-list h2 {
+  float: left;
+  padding: 0 14px 0 27px;
+  height: 23px;
+  font-size: 16px;
+  line-height: 23px;
+  border-bottom: 2px solid #567fe6;
+  background: url(zzjg_scy_jyb_btbj_03.png) no-repeat 6px center;
+}
+.moe_title h2 a, .scy-zzjg-left1-list h2 a, .scy-zzjg-right1-list h2 a {
+  color: #567fe6;
+  font-weight: bold;
+}
